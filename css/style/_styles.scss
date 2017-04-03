@@ -88,3 +88,24 @@ body {
 .header__menu {
 	width: 35%;
 }
+
+.logo{
+	display: inline-block;
+}
+
+.logo__pic {
+	display: block;
+	max-width: 175px;
+	max-height: 55px; 
+}
+
+.search {
+	position: relative;
+}
+
+.search__input {
+	padding: 10px 40px 10px 35px;
+	background: rgba(#fff, .2);
+	border: 0 none;
+	@include border-radius (50px);
+}

@@ -605,3 +605,25 @@ a {
 
 .header__menu {
   width: 35%; }
+
+.logo {
+  display: inline-block; }
+
+.logo__pic {
+  display: block;
+  max-width: 175px;
+  max-height: 55px; }
+
+.search {
+  position: relative; }
+
+.search__input {
+  padding: 10px 40px 10px 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 0 none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; }
