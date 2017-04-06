@@ -55,7 +55,7 @@ body {
 	box-sizing: border-box;
 }
 
-.conteiner {
+.container {
 	width: 1170px; 
 	margin: 0 auto;
 }
@@ -70,6 +70,7 @@ body {
 	background: linear-gradient(to right,  #fb3e38 0%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 ); /* IE6-9 */
 	margin-bottom: 20px;
+
 }
 
 .header__logo, .header__search, .header__menu {
@@ -237,4 +238,44 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+	width: 100%;
+}
+
+.breadcrumbs__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+
+	&:first-child {
+		margin-left: 0;
+
+		.breadcrumbs__link {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+
+}
+
+.breadcrumbs__link {
+	font-size: 11px;
+	color:#f77771; 
+	vertical-align: middle;
+
+	&:before {
+		content: "";
+		display: inline-block;
+		background: url("/img/decor/arrow.png");
+		width: 16px;
+		height: 7px;
+		margin-right: 15px;
+		vertical-align: middle;
+	}
 }
