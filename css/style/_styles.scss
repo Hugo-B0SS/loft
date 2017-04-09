@@ -20,6 +20,7 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 	position: relative;
+	background-color: #eae2e2;
 }
 
 .empty {
@@ -278,4 +279,30 @@ body {
 		margin-right: 15px;
 		vertical-align: middle;
 	}
+}
+
+.title {
+	@include helvetica(light);
+	font-size: 24px;
+	color: #2e2e2e;
+	margin-top: 0;
+	font-weight: normal;
+}
+
+/* content */
+
+.content-wrapper {
+	.container {
+		background: #fff;
+	}
+}
+
+.sidebar {
+	float: left;
+	width: 25%
+}
+
+.content {
+	float: left;
+	width: 75%;
 }
